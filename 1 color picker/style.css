@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(139, 174, 255);
+  color: white;
+}
+.center {
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 4rem;
+  font-family: arial;
+  letter-spacing: 10px;
+  margin: 15px;
+}
+
+button {
+  font-size: 1rem;
+  font-family: cursive;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0px 1px 10px black;
+  margin: 20px;
+}
+button:hover {
+  background-color: rgb(255, 119, 119);
+  border: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  font-family: cursive;
+  text-transform: uppercase;
+  /* margin: 5px; */
+  padding: 15px;
+  width: 50%;
+  text-align: center;
+}
+a:first-child {
+  border-right: 1px solid black;
+}
+a:hover {
+  background-color: rgb(240, 240, 240);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  /* padding: 10px; */
+  box-shadow: 0px 1px 15px black;
+  background-color: rgb(255, 255, 255);
+}
+
+span {
+  width: auto;
+  height: auto;
+  font-size: 2.5rem;
+  background-color: #333;
+  border-radius: 10px;
+  margin: 10px;
+  letter-spacing: 10px;
+  text-align: center;
+  font-family: cursive;
+  text-transform: uppercase;
+}
